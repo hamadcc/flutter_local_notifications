@@ -619,7 +619,8 @@ class FlutterLocalNotificationsPlugin {
         'openAppNotificationSettings() is not supported on web',
       );
     }
-    return FlutterLocalNotificationsPlatform.instance.openAppNotificationSettings();
+    return FlutterLocalNotificationsPlatform.instance
+        .openAppNotificationSettings();
   }
 
   /// Returns the list of active notifications shown by the application that

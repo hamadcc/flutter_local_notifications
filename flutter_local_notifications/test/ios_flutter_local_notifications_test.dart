@@ -934,8 +934,8 @@ void main() {
     });
 
     test('openAppNotificationSettings (cross-platform)', () async {
-      final bool? opened =
-          await flutterLocalNotificationsPlugin.openAppNotificationSettings();
+      final bool? opened = await flutterLocalNotificationsPlugin
+          .openAppNotificationSettings();
       expect(opened, isTrue);
       expect(
         log.last,
